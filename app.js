@@ -31,10 +31,10 @@ app.post("/", function(req, res) {
   };
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us6.api.mailchimp.com/3.0/lists/c25e0c6330";
+  const url = "https://us6.api.mailchimp.com/3.0/lists/{lists_id}";
   const options = {
     method: "POST",
-    auth: "tushar:cfe067fd614cfb9cad2cf64573ac2b4d-us6"
+    auth: "tushar:{API_KEY}"
   }
 
 
