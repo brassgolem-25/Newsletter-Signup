@@ -62,8 +62,3 @@ app.listen(process.env.PORT || 3000, function() {
 
 
 
-//API kEY
-// cfe067fd614cfb9cad2cf64573ac2b4d-us6
-//
-// Audience
-// c25e0c6330
